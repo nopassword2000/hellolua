@@ -12,7 +12,7 @@ mate_a = {
     }
 }
 
---setmetatable(a,mate_a)
+setmetatable(a,mate_a)
 
 print(a.key1)
 print(a.name)
